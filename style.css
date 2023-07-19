@@ -1,0 +1,33 @@
+body {
+    background-color: #000b1c;
+}
+
+#search-container {
+    margin-top: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-element {
+    box-sizing: border-box;
+    border-width: 4px;
+    border-color: #0069ff;
+    border-style: solid;
+    height: 64px;
+    font-size: 32px;
+    background-color: transparent;
+    padding: 0px;
+}
+
+#search-box {
+    border-radius: 12px 0px 0px 12px;
+    width: 512px;
+    padding-left: 10px;
+    color: #00ccff;
+}
+
+#search-button {
+    border-radius: 0px 12px 12px 0px;
+    width: 64px;
+}
